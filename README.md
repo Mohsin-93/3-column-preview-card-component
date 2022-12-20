@@ -45,7 +45,7 @@ Users should be able to:
 
 
 
-**I got some practice with 'display: flex'**
+<!-- I got some practice with 'display: flex' -->
 
 
 
@@ -56,7 +56,7 @@ Users should be able to:
 ## Author
 
 <!-- - Website - [Add your name here](https://www.your-site.com) -->
-- Frontend Mentor - [@Mohsin-93](https://www.frontendmentor.io/profile/Mohsin-93)
+- Frontend Mentor - [@Mohsin](https://www.frontendmentor.io/profile/Mohsin-93)
 
 
 
