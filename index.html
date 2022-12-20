@@ -36,7 +36,7 @@
       background-color: hsl(0, 0%, 95%);
     }
 
-    h1 {
+    h2 {
       font-family: 'Big Shoulders Display', Cursive;
       text-transform: uppercase;
       color: hsl(0, 0%, 95%);
@@ -83,43 +83,47 @@
       background-color: var(--ddcyan);
     }
 
-    .card-sedan button {
+    .card-sedan a {
       color: var(--orange);
     }
 
-    .card-sedan button:hover {
+    .card-sedan a:hover {
       background-color: var(--orange);
     }
 
-    .card-SUV button {
+    .card-SUV a {
       color: var(--dcayan);
     }
 
-    .card-SUV button:hover {
+    .card-SUV a:hover {
       background-color: var(--dcayan);
     }
 
-    .card-luxury button {
+    .card-luxury a {
       color: var(--ddcyan);
     }
 
-    .card-luxury button:hover {
+    .card-luxury a:hover {
       background-color: var(--ddcyan);
     }
 
-    button {
+    a {
       background-color: hsl(0, 0%, 95%);
       border: 2px solid hsl(0, 0%, 95%);
       border-radius: 50px;
-      padding: 6% 14%;
+text-align: center;
+       padding: 04.5% 0 ;
       font-weight: 400;
       margin-top: 4.7%;
       font-size: .95rem;
       transition: all .3s;
-      max-width: 140.5px;
+      height: 45px;
+      width: 140.5px;
+      text-decoration: none;
+      display:inline-block;
     }
 
-    button:hover {
+    a:hover {
       color: hsl(0, 0%, 95%);
 
 
@@ -157,7 +161,7 @@
         width: 70%;
       }
 
-      button {
+      a {
         margin-top: 30%;
 
 
@@ -171,41 +175,41 @@
   <main class="card-container">
     <div class="card-sedan">
       <div>
-        <img src="images/icon-sedans.svg" alt="">
-        <h1>Sedans</h1>
+        <img src="images/icon-sedans.svg" alt="" aria-hidden="true">
+        <h2>Sedans</h2>
         <p>
           Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
           or on your next road trip.
 
         </p>
-        <button type="button">Learn More</button>
+        <a >Learn More</a>
       </div>
     </div>
 
     <div class="card-SUV">
       <div>
-        <img src="images/icon-suvs.svg" alt="">
-        <h1>SUVs</h1>
+        <img src="images/icon-suvs.svg" alt="" aria-hidden="true">
+        <h2>SUVs</h2>
         <p>
           Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
           and off-road adventures.
 
         </p>
-        <button type="button">Learn More</button>
+        <a href="#">Learn More</a>
 
       </div>
     </div>
 
     <div class="card-luxury">
       <div>
-        <img src="images/icon-luxury.svg" alt="">
-        <h1>Luxury</h1>
+        <img src="images/icon-luxury.svg" alt="" aria-hidden="true">
+        <h2>Luxury</h2>
         <p>
           Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
           rental and arrive in style.
 
         </p>
-        <button type="button">Learn More</button>
+        <a href="#">Learn More</a>
 
       </div>
     </div>
